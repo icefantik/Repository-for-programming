@@ -1,0 +1,7 @@
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\bin\Debug\TreeNlayer.exe.config
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\bin\Debug\TreeNlayer.exe
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\bin\Debug\TreeNlayer.pdb
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\obj\Debug\TreeNlayer.csproj.AssemblyReference.cache
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\obj\Debug\TreeNlayer.csproj.CoreCompileInputs.cache
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\obj\Debug\TreeNlayer.exe
+D:\c\education\programming\Scripts\C#\TreeNlayer\TreeNlayer\obj\Debug\TreeNlayer.pdb

@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+
+public class TreeNode
+{
+    public int val;
+    public List<TreeNode> children;
+
+    public TreeNode(int val = 0)
+    {
+        this.val = val;
+        this.children = new List<TreeNode>();
+    }
+}
+
+public class TreeTraversal
+{
+    public void BreadthFirstSearch(TreeNode root)
+    {
+        if (root == null)
+            return;
+
+        Queue<TreeNode> queue = new Queue<TreeNode>();
+        queue.Enqueue(root);
+
+        while (queue.Count > 0)
+        {
+            TreeNode node = queue.Dequeue();
+            Console.WriteLine(node.val);
+
+            foreach (TreeNode child in node.children)
+            {
+                queue.Enqueue(child);
+            }
+        }
+    }
+}
+
+Обход дерева в ширину (BFS) начинается с корневого узла. Затем поочередно обрабатываются все узлы на одном уровне перед переходом к узлам следующего уровня. Для этого используется очередь, в которую помещаются узлы на текущем уровне, а из которой извлекается их потомок для обработки. Каждый узел обрабатывается только один раз.
